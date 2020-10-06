@@ -1,0 +1,67 @@
+import {StyleSheet, Text} from 'react-native';
+
+const styles = StyleSheet.create({
+    container: {
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderWidth: 1,
+        margin: 10,
+        borderRadius: 5,
+        backgroundColor: '#ccc',
+        height: '80%',
+    },
+    cardView: {
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderWidth: 1,
+        margin: 10,
+        borderRadius: 5,
+        backgroundColor: '#FA5965',
+        height: '80%',
+        shadowColor: '#666',
+        shadowOffset: {width:0 , height: 2},
+        shadowOpacity:0.3,
+        shadowRadius:3,
+    },
+    frontView:{
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderWidth: 1,
+        margin: 10,
+        borderRadius: 5,
+        backgroundColor: '#ccc',
+        height: '80%',
+        borderColor: '#FA5965',
+        /*shadowColor: '#666',
+        shadowOffset: {width:0 , height: 2},
+        shadowOpacity:0.3,
+        shadowRadius:3,*/
+    },
+    backView: {
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderWidth: 1,
+        margin: 10,
+        borderRadius: 5,
+        backgroundColor: '#FA5965',
+        borderColor: '#FA5965',
+        height: '80%',
+        shadowColor: '#666',
+        shadowOffset: {width:0 , height: 2},
+        shadowOpacity:0.3,
+        shadowRadius:3, 
+    },
+    cardText: {
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderWidth: 1,
+        margin: 10,
+    },
+    
+});
+export default styles;
